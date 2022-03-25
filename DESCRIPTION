@@ -1,0 +1,9 @@
+Package: CurCurr
+Type: Package
+Title: Uses online information to get actual current currency exchange rates
+Version: 0.0.0.9000
+Author: Stanislau Smirnou
+License: CC0
+Depends: httr
+Encoding: UTF-8
+LazyData: true
