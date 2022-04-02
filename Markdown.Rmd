@@ -1,0 +1,38 @@
+---
+title: "stas_markdown"
+author: "Stanislau Smirnou"
+date: "4/2/2022"
+output: html_document
+---
+- *This is my project using RMarkdown package - wow, cursive!*
+- **Here I am testing the different text modes**
+-
+- Skipping one of the points above!
+
+
+
+
+### This one is a big one ###
+
+1. We
+2. can
+3. also
+4. do
+5. ordered
+6. lists
+
+### Here is a [link](https://github.com/StassSmir/TestRepositoryStas) to my github and we even combined different types of markdown ###
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Let's do an inline summary of an included airmiles dataset!
+```{r airmiles}
+summary(airmiles)
+```
+
+And we can also do a graph right right here!
+```{r airmilesgraph, echo=FALSE}
+plot(airmiles)
+```
+
